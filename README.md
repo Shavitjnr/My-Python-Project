@@ -1,6 +1,6 @@
 # My Python Project Collection
 
-A collection of four interactive Python games and applications demonstrating various programming concepts and game logic.
+A collection of five interactive Python projects demonstrating various programming concepts, from simple games to advanced voice-controlled virtual assistants.
 
 ## 📋 Table of Contents
 
@@ -11,6 +11,7 @@ A collection of four interactive Python games and applications demonstrating var
   - [Project 2: Blackjack Card Game](#project-2-blackjack-card-game)
   - [Project 3: Snake Water Gun](#project-3-snake-water-gun)
   - [Project 4: Number Guessing Game](#project-4-number-guessing-game)
+  - [Project 5: Jarvis Voice Assistant](#project-5-jarvis-voice-assistant)
 - [Requirements](#requirements)
 - [How to Run](#how-to-run)
 - [Features](#features)
@@ -18,23 +19,33 @@ A collection of four interactive Python games and applications demonstrating var
 
 ## 🎯 Project Overview
 
-This repository contains four Python projects that showcase different programming concepts:
+This repository contains five Python projects that showcase different programming concepts and complexity levels:
 
 - **Game Logic**: Rock Paper Scissors, Snake Water Gun, Number Guessing
 - **Object-Oriented Programming**: Blackjack with Card, Deck, and Hand classes
+- **Advanced AI & Voice Control**: Jarvis Voice Assistant with speech recognition
 - **User Input Handling**: Input validation and error handling
 - **Random Number Generation**: Computer opponents and game mechanics
-- **File I/O**: High score tracking
+- **File I/O**: High score tracking and data persistence
+- **API Integration**: OpenAI GPT and NewsAPI integration
+- **Speech Processing**: Voice recognition and text-to-speech
 
 ## 🚀 Installation
 
 1. **Clone or download** this repository to your local machine
-2. **Ensure Python 3.x** is installed on your system
+2. **Ensure Python 3.x** is installed on your system (3.7+ recommended for Project 5)
 3. **Navigate** to the project directory
 
 ```bash
 cd My-Python-Project
 ```
+
+4. **For Project 5 (Jarvis)**: Install additional dependencies and set up API keys
+   ```bash
+   cd "Project 5"
+   pip install -r requirements.txt
+   # Create .env file with API keys (see Project 5 documentation)
+   ```
 
 ## 🎮 Projects
 
@@ -137,10 +148,53 @@ python main.py
 - Get hints whether to guess higher or lower
 - Try to guess correctly in the fewest attempts
 
+### Project 5: Jarvis Voice Assistant
+
+**File**: `Project 5/main.py`
+
+A sophisticated voice-controlled virtual assistant inspired by Iron Man's JARVIS.
+
+**Features:**
+- 🎤 **Voice Control**: Wake word detection ("Jarvis")
+- 🌐 **Web Automation**: Open websites with voice commands
+- 🎵 **Music Playback**: Voice-controlled YouTube music
+- 📰 **News Updates**: Real-time news headlines
+- 🤖 **AI Integration**: OpenAI GPT-powered responses
+- 🔊 **Text-to-Speech**: Natural voice responses
+
+**Requirements:**
+- Microphone and speakers
+- Internet connection
+- OpenAI API key
+- NewsAPI key
+
+**How to Run:**
+```bash
+cd "Project 5"
+pip install -r requirements.txt
+# Set up .env file with API keys
+python main.py
+```
+
+**Voice Commands:**
+- **"Jarvis"** - Wake word
+- **"Open Google/YouTube/Facebook/LinkedIn"** - Web browsing
+- **"Play [song name]"** - Music playback
+- **"News"** - Latest headlines
+- **Any question** - AI-powered responses
+
 ## 📋 Requirements
 
-- **Python 3.x** (3.6 or higher recommended)
-- **No external dependencies** - all projects use only Python standard library
+### Basic Requirements (Projects 1-4)
+- **Python 3.x** (3.6 or higher)
+- **No external dependencies** - uses only Python standard library
+
+### Advanced Requirements (Project 5)
+- **Python 3.7+** (recommended)
+- **Microphone and speakers**
+- **Internet connection**
+- **API keys**: OpenAI and NewsAPI
+- **Dependencies**: See `Project 5/requirements.txt`
 
 ## 🎯 How to Run
 
@@ -165,11 +219,14 @@ python main.py
    
    # For Number Guessing
    cd "Project 4" && python main.py
+   
+   # For Jarvis Voice Assistant
+   cd "Project 5" && python main.py
    ```
 
 ### Running All Projects
 
-You can run each project individually by navigating to its directory and executing the main Python file.
+You can run each project individually by navigating to its directory and executing the main Python file. Note that Project 5 requires additional setup (dependencies and API keys).
 
 ## ✨ Features
 
@@ -177,14 +234,24 @@ You can run each project individually by navigating to its directory and executi
 - **Interactive gameplay** with user input
 - **Error handling** for invalid inputs
 - **Clear instructions** and feedback
-- **Replayability** - most games can be played multiple times
+- **Replayability** - most projects can be used multiple times
 
 ### Technical Features
-- **Modular code structure** (especially in Blackjack)
+- **Modular code structure** (especially in Blackjack and Jarvis)
 - **Object-oriented programming** concepts
-- **File I/O operations** for score tracking
+- **File I/O operations** for data persistence
 - **Random number generation** for game mechanics
 - **Input validation** and user experience
+- **API integration** (Project 5)
+- **Speech recognition and synthesis** (Project 5)
+- **Web automation** (Project 5)
+
+### Project Complexity Progression
+1. **Project 1**: Basic game logic and input handling
+2. **Project 2**: Object-oriented design and complex game rules
+3. **Project 3**: File I/O and score tracking
+4. **Project 4**: Random generation and user feedback
+5. **Project 5**: Advanced AI, speech processing, and API integration
 
 ## 🤝 Contributing
 
@@ -193,25 +260,30 @@ Feel free to contribute to these projects by:
 1. **Fixing bugs** (especially in Project 3)
 2. **Adding new features**
 3. **Improving user interface**
-4. **Adding more games**
+4. **Adding more games or assistant features**
 5. **Enhancing documentation**
+6. **Expanding Jarvis capabilities**
 
 ### Suggested Improvements
 - Add graphical interfaces using libraries like `tkinter` or `pygame`
-- Implement sound effects
+- Implement sound effects for games
 - Add multiplayer functionality
 - Create a unified game launcher
 - Add configuration options
 - Implement proper error handling in Project 3
+- Expand Jarvis with more voice commands
+- Add home automation features to Jarvis
+- Implement offline speech recognition
+- Add multi-language support to Jarvis
 
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🎉 Enjoy Playing!
+## 🎉 Enjoy Your Python Journey!
 
-Each project demonstrates different Python programming concepts and provides hours of entertainment. Start with the simpler games and work your way up to the more complex Blackjack implementation!
+This collection demonstrates the evolution of Python programming concepts, from simple games to advanced AI-powered applications. Start with the basic games to learn fundamentals, then explore the sophisticated voice assistant to see Python's full potential!
 
 ---
 
-**Happy Coding! 🐍🎮**
+**Happy Coding! 🐍🎮🤖**
