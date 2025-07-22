@@ -1,6 +1,6 @@
 # My Python Project Collection
 
-A collection of five interactive Python projects demonstrating various programming concepts, from simple games to advanced voice-controlled virtual assistants.
+A collection of six interactive Python projects demonstrating various programming concepts, from simple games to advanced voice-controlled virtual assistants and practical utilities.
 
 ## 📋 Table of Contents
 
@@ -12,6 +12,7 @@ A collection of five interactive Python projects demonstrating various programmi
   - [Project 3: Snake Water Gun](#project-3-snake-water-gun)
   - [Project 4: Number Guessing Game](#project-4-number-guessing-game)
   - [Project 5: Jarvis Voice Assistant](#project-5-jarvis-voice-assistant)
+  - [Project 6: Rent Calculator](#project-6-rent-calculator)
 - [Requirements](#requirements)
 - [How to Run](#how-to-run)
 - [Features](#features)
@@ -19,7 +20,7 @@ A collection of five interactive Python projects demonstrating various programmi
 
 ## 🎯 Project Overview
 
-This repository contains five Python projects that showcase different programming concepts and complexity levels:
+This repository contains six Python projects that showcase different programming concepts and complexity levels:
 
 - **Game Logic**: Rock Paper Scissors, Snake Water Gun, Number Guessing
 - **Object-Oriented Programming**: Blackjack with Card, Deck, and Hand classes
@@ -29,6 +30,7 @@ This repository contains five Python projects that showcase different programmin
 - **File I/O**: High score tracking and data persistence
 - **API Integration**: OpenAI GPT and NewsAPI integration
 - **Speech Processing**: Voice recognition and text-to-speech
+- **Practical Utilities**: Rent Calculator for splitting costs
 
 ## 🚀 Installation
 
@@ -67,12 +69,6 @@ cd "Project 1"
 python Rock_Paper_Game.py
 ```
 
-**Game Rules:**
-- Rock beats Scissors
-- Paper beats Rock  
-- Scissors beats Paper
-- Enter your choice when prompted
-
 ### Project 2: Blackjack Card Game
 
 **File**: `Project 2/Cards_Game.py`
@@ -92,13 +88,6 @@ cd "Project 2"
 python Cards_Game.py
 ```
 
-**Game Rules:**
-- Get as close to 21 as possible without going over
-- Face cards (J, Q, K) are worth 10
-- Aces are worth 1 or 11 (automatically optimized)
-- Dealer must hit on 16 and below, stand on 17 and above
-- Choose 'Hit' to draw a card or 'Stand' to keep your hand
-
 ### Project 3: Snake Water Gun
 
 **File**: `Project 3/main.py`
@@ -115,14 +104,6 @@ A Snake Water Gun game (similar to Rock Paper Scissors with different elements).
 cd "Project 3"
 python main.py
 ```
-
-**Game Rules:**
-- Snake beats Water
-- Water beats Gun
-- Gun beats Snake
-- Enter 's' for Snake, 'w' for Water, 'g' for Gun
-
-**Note**: This project appears to be incomplete and may have some issues that need fixing.
 
 ### Project 4: Number Guessing Game
 
@@ -141,12 +122,6 @@ A number guessing game where you try to guess a random number between 1 and 100.
 cd "Project 4"
 python main.py
 ```
-
-**Game Rules:**
-- Computer generates a random number between 1-100
-- Enter your guess when prompted
-- Get hints whether to guess higher or lower
-- Try to guess correctly in the fewest attempts
 
 ### Project 5: Jarvis Voice Assistant
 
@@ -176,16 +151,36 @@ pip install -r requirements.txt
 python main.py
 ```
 
-**Voice Commands:**
-- **"Jarvis"** - Wake word
-- **"Open Google/YouTube/Facebook/LinkedIn"** - Web browsing
-- **"Play [song name]"** - Music playback
-- **"News"** - Latest headlines
-- **Any question** - AI-powered responses
+### Project 6: Rent Calculator
+
+**File**: `Project 6/rent_calculator.py`
+
+A simple command-line tool to split rent and utility costs among roommates or flatmates.
+
+**Features:**
+- User-friendly prompts for all required inputs
+- Calculates each person's share of rent, food, and electricity
+- Simple integer division for fair splitting
+
+**How to Run:**
+```bash
+cd "Project 6"
+python rent_calculator.py
+```
+
+**Example:**
+```
+Enter your hostel/flat rent = 12000
+Enter the amount of food ordered = 3000
+Enter the total of electricity spend = 150
+Enter the charge per unit = 8
+Enter the number of persons living in room/flat = 4
+Each person will pay = 4050
+```
 
 ## 📋 Requirements
 
-### Basic Requirements (Projects 1-4)
+### Basic Requirements (Projects 1-4, 6)
 - **Python 3.x** (3.6 or higher)
 - **No external dependencies** - uses only Python standard library
 
@@ -222,6 +217,9 @@ python main.py
    
    # For Jarvis Voice Assistant
    cd "Project 5" && python main.py
+   
+   # For Rent Calculator
+   cd "Project 6" && python rent_calculator.py
    ```
 
 ### Running All Projects
@@ -231,10 +229,10 @@ You can run each project individually by navigating to its directory and executi
 ## ✨ Features
 
 ### Common Features Across Projects
-- **Interactive gameplay** with user input
+- **Interactive gameplay or utility** with user input
 - **Error handling** for invalid inputs
 - **Clear instructions** and feedback
-- **Replayability** - most projects can be used multiple times
+- **Replayability** or reusability
 
 ### Technical Features
 - **Modular code structure** (especially in Blackjack and Jarvis)
@@ -245,6 +243,7 @@ You can run each project individually by navigating to its directory and executi
 - **API integration** (Project 5)
 - **Speech recognition and synthesis** (Project 5)
 - **Web automation** (Project 5)
+- **Practical utilities** (Project 6)
 
 ### Project Complexity Progression
 1. **Project 1**: Basic game logic and input handling
@@ -252,6 +251,7 @@ You can run each project individually by navigating to its directory and executi
 3. **Project 3**: File I/O and score tracking
 4. **Project 4**: Random generation and user feedback
 5. **Project 5**: Advanced AI, speech processing, and API integration
+6. **Project 6**: Practical utility for daily life
 
 ## 🤝 Contributing
 
@@ -260,9 +260,10 @@ Feel free to contribute to these projects by:
 1. **Fixing bugs** (especially in Project 3)
 2. **Adding new features**
 3. **Improving user interface**
-4. **Adding more games or assistant features**
+4. **Adding more games, utilities, or assistant features**
 5. **Enhancing documentation**
 6. **Expanding Jarvis capabilities**
+7. **Improving the Rent Calculator (input validation, decimals, GUI, etc.)**
 
 ### Suggested Improvements
 - Add graphical interfaces using libraries like `tkinter` or `pygame`
@@ -270,11 +271,12 @@ Feel free to contribute to these projects by:
 - Add multiplayer functionality
 - Create a unified game launcher
 - Add configuration options
-- Implement proper error handling in Project 3
+- Implement proper error handling in Project 3 and 6
 - Expand Jarvis with more voice commands
 - Add home automation features to Jarvis
 - Implement offline speech recognition
 - Add multi-language support to Jarvis
+- Add more practical utilities
 
 ## 📝 License
 
@@ -282,7 +284,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🎉 Enjoy Your Python Journey!
 
-This collection demonstrates the evolution of Python programming concepts, from simple games to advanced AI-powered applications. Start with the basic games to learn fundamentals, then explore the sophisticated voice assistant to see Python's full potential!
+This collection demonstrates the evolution of Python programming concepts, from simple games to advanced AI-powered applications and practical tools. Start with the basic games to learn fundamentals, then explore the sophisticated voice assistant and utilities to see Python's full potential!
 
 ---
 
