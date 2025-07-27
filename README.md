@@ -1,4 +1,13 @@
-# My Python Project Collection
+# 🐍 My Python Project Collection
+
+```
+        ____        _   _                   ____            _           _   
+       |  _ \ _   _| |_| |__   ___  _ __   |  _ \ _ __ ___ | |__   ___ | |_ 
+       | |_) | | | | __| '_ \ / _ \| '_ \  | |_) | '__/ _ \| '_ \ / _ \| __|
+       |  __/| |_| | |_| | | | (_) | | | | |  __/| | | (_) | |_) | (_) | |_ 
+       |_|    \__, |\__|_| |_|\___/|_| |_| |_|   |_|  \___/|_.__/ \___/ \__|
+              |___/                                                         
+```
 
 A curated collection of 15+ interactive Python projects, ranging from classic games and utilities to AI-powered assistants and productivity tools. Each project is self-contained, beginner-friendly, and demonstrates practical Python programming concepts.
 
@@ -218,6 +227,10 @@ Contributions are welcome! You can:
 ## 📝 License
 
 MIT License. See LICENSE file for details.
+
+---
+
+> "Code is like humor. When you have to explain it, it’s bad." — Cory House
 
 ---
 
