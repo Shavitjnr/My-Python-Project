@@ -245,7 +245,7 @@ MIT License. See LICENSE file for details.
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="60%"/>
+  <img src="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png" width="40%"/>
 </p>
 
 <p align="center" style="font-size:1.2em; font-style:italic;">
