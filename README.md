@@ -1,8 +1,11 @@
 # My Python Project Collection
 
-A collection of nine interactive Python projects demonstrating a range of programming concepts, from classic games to utilities, GUIs, and AI-powered assistants.
+A curated collection of 15+ interactive Python projects, ranging from classic games and utilities to AI-powered assistants and productivity tools. Each project is self-contained, beginner-friendly, and demonstrates practical Python programming concepts.
+
+---
 
 ## 📋 Table of Contents
+
 - [Project Overview](#project-overview)
 - [Project Summaries](#project-summaries)
   - [Project 1: Rock Paper Scissors](#project-1-rock-paper-scissors)
@@ -14,21 +17,29 @@ A collection of nine interactive Python projects demonstrating a range of progra
   - [Project 7: Coin Toss Game](#project-7-coin-toss-game)
   - [Project 8: Ludo Game](#project-8-ludo-game)
   - [Project 9: To-Do List GUI](#project-9-to-do-list-gui)
+  - [Project 10: Password Generator](#project-10-password-generator)
+  - [Project 11: Unit Converter](#project-11-unit-converter)
+  - [Project 12: File Organizer](#project-12-file-organizer)
+  - [Project 13: Web Scraper](#project-13-web-scraper)
+  - [Project 14: Alarm Clock](#project-14-alarm-clock)
+  - [Project 15: PDF Merger/Reader](#project-15-pdf-mergerreader)
 - [Requirements Summary](#requirements-summary)
 - [How to Run](#how-to-run)
 - [Contributing](#contributing)
 - [License](#license)
 
+---
+
 ## 🎯 Project Overview
+
 This repository contains the following Python projects:
+
+---
 
 ## Project Summaries
 
 ### Project 1: Rock Paper Scissors
-- **Description:** Classic game against the computer with input validation and clear win/lose logic.
-- **Features:** User vs. computer, random choices, input validation.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only
+- **Description:** Classic command-line game against the computer with robust input validation.
 - **How to Run:**
   ```bash
   cd "Project 1"
@@ -37,9 +48,6 @@ This repository contains the following Python projects:
 
 ### Project 2: Blackjack Card Game
 - **Description:** OOP-based Blackjack with dealer AI, full deck, and ace value handling.
-- **Features:** Multiple sessions, professional card display, dealer AI.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only
 - **How to Run:**
   ```bash
   cd "Project 2"
@@ -48,9 +56,6 @@ This repository contains the following Python projects:
 
 ### Project 3: Snake Water Gun
 - **Description:** A variant of Rock Paper Scissors with score tracking and file I/O.
-- **Features:** High score tracking, simple input-based gameplay.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only
 - **How to Run:**
   ```bash
   cd "Project 3"
@@ -59,9 +64,6 @@ This repository contains the following Python projects:
 
 ### Project 4: Number Guessing Game
 - **Description:** Guess a random number between 1 and 100 with hints and attempt counter.
-- **Features:** Random number generation, hints, replayability.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only
 - **How to Run:**
   ```bash
   cd "Project 4"
@@ -69,17 +71,7 @@ This repository contains the following Python projects:
   ```
 
 ### Project 5: Jarvis Voice Assistant
-- **Description:** Voice-controlled AI assistant with web, music, and news features.
-- **Features:** Voice control, web automation, music playback, news updates, OpenAI GPT integration, text-to-speech.
-- **Python Version:** 3.7+
-- **Libraries:**
-  - `speechrecognition>=3.8.1`
-  - `pyttsx3>=2.90`
-  - `openai>=0.27.0`
-  - `requests>=2.25.1`
-  - `python-dotenv>=0.19.0`
-  - `pyaudio>=0.2.11`
-  - See `Project 5/requirements.txt` for full list
+- **Description:** Voice-controlled AI assistant with web, music, and news features. Requires API keys for OpenAI and NewsAPI.
 - **How to Run:**
   ```bash
   cd "Project 5"
@@ -90,9 +82,6 @@ This repository contains the following Python projects:
 
 ### Project 6: Rent Calculator
 - **Description:** Utility to split rent, food, and electricity costs among roommates.
-- **Features:** User-friendly prompts, fair cost splitting, simple CLI.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only
 - **How to Run:**
   ```bash
   cd "Project 6"
@@ -101,9 +90,6 @@ This repository contains the following Python projects:
 
 ### Project 7: Coin Toss Game
 - **Description:** Interactive CLI game where users guess heads or tails, with score tracking.
-- **Features:** Random coin toss, user guesses, score tracking, replay option.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only (`random`)
 - **How to Run:**
   ```bash
   cd "Project 7"
@@ -112,9 +98,6 @@ This repository contains the following Python projects:
 
 ### Project 8: Ludo Game
 - **Description:** Command-line Ludo-style race game for 2-4 players. Roll dice, race to the finish!
-- **Features:** 2-4 players, color assignment, turn-based dice rolling, winner announcement.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only (`random`)
 - **How to Run:**
   ```bash
   cd "Project 8"
@@ -122,17 +105,69 @@ This repository contains the following Python projects:
   ```
 
 ### Project 9: To-Do List GUI
-- **Description:** A modern, user-friendly To-Do List application with a graphical interface built using Tkinter. Add, complete, and delete tasks, with persistent storage in a local JSON file. No external dependencies required.
-- **Features:** GUI (Tkinter), add/complete/delete tasks, persistent storage, simple and intuitive design.
-- **Python Version:** 3.6+
-- **Libraries:** Standard library only (Tkinter)
+- **Description:** A modern, user-friendly To-Do List application with a graphical interface built using Tkinter.
 - **How to Run:**
   ```bash
   cd "Project 9"
   python main.py
   ```
 
+### Project 10: Password Generator
+- **Description:** Secure, random password generator with custom length and character variety.
+- **How to Run:**
+  ```bash
+  cd "Project 10"
+  python main.py
+  ```
+
+### Project 11: Unit Converter
+- **Description:** Convert between units (length, weight, temperature, etc.).
+- **How to Run:**
+  ```bash
+  cd "Project 11"
+  python main.py
+  ```
+
+### Project 12: File Organizer
+- **Description:** Automatically sort files in a folder by type/extension. Great for automating file management.
+- **How to Run:**
+  ```bash
+  cd "Project 12"
+  python main.py
+  ```
+
+### Project 13: Web Scraper
+- **Description:** Scrape news headlines, job listings, or product prices using BeautifulSoup or Scrapy. Save data to CSV/JSON or display in CLI.
+- **How to Run:**
+  ```bash
+  cd "Project 13"
+  python main.py
+  ```
+
+### Project 14: Alarm Clock
+- **Description:** GUI-based app to set alarms. Play a sound when time is reached.
+- **How to Run:**
+  ```bash
+  cd "Project 14"
+  python main.py
+  ```
+
+### Project 15: PDF Merger/Reader
+- **Description:** Command-line utility to merge multiple PDF files or extract text from PDFs using PyPDF2 and pdfplumber.
+- **How to Run:**
+  ```bash
+  cd "Project 15"
+  pip install -r requirements.txt
+  # To merge PDFs:
+  python main.py merge output.pdf input1.pdf input2.pdf ...
+  # To extract text from a PDF:
+  python main.py extract input.pdf [output.txt]
+  ```
+
+---
+
 ## 🗂️ Requirements Summary
+
 | Project         | Python Version | Extra Libraries/Dependencies         |
 |----------------|---------------|--------------------------------------|
 | Project 1      | 3.6+          | None                                 |
@@ -144,8 +179,17 @@ This repository contains the following Python projects:
 | Project 7      | 3.6+          | None                                 |
 | Project 8      | 3.6+          | None                                 |
 | Project 9      | 3.6+          | Tkinter (standard, or python3-tk)    |
+| Project 10     | 3.6+          | None                                 |
+| Project 11     | 3.6+          | None                                 |
+| Project 12     | 3.6+          | None                                 |
+| Project 13     | 3.6+          | BeautifulSoup, Scrapy                |
+| Project 14     | 3.6+          | None                                 |
+| Project 15     | 3.6+          | PyPDF2, pdfplumber                   |
+
+---
 
 ## 🚀 How to Run
+
 1. **Install Python 3.6+** (3.7+ for Project 5)
 2. **Clone this repository**
 3. **Navigate to the desired project folder**
@@ -158,7 +202,10 @@ This repository contains the following Python projects:
    sudo apt-get install python3.12-tk
    ```
 
+---
+
 ## 🤝 Contributing
+
 Contributions are welcome! You can:
 - Fix bugs or add features
 - Improve user interfaces
@@ -166,5 +213,12 @@ Contributions are welcome! You can:
 - Enhance documentation
 - Submit pull requests for review
 
+---
+
 ## 📝 License
+
 MIT License. See LICENSE file for details.
+
+---
+
+**If you want a more detailed summary for Projects 11-15, or want to include code samples, screenshots, or additional usage tips, let me know!**
