@@ -2,6 +2,12 @@
 
 ![Python Animated Banner](https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.6%2B-blue?logo=python" alt="Python Version"/>
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
+  <img src="https://img.shields.io/badge/Stars-★_Show_Your_Support-lightgrey" alt="Stars"/>
+</p>
+
 ```
         ____        _   _                   ____            _           _   
        |  _ \ _   _| |_| |__   ___  _ __   |  _ \ _ __ ___ | |__   ___ | |_ 
@@ -11,13 +17,15 @@
               |___/                                                         
 ```
 
-![Divider](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png" width="60%"/>
+</p>
 
-> **Welcome to the Ultimate Python Project Collection!**
->
-> Unlock the power of Python with 15+ hands-on projects, from classic games to automation, AI, and productivity tools. Whether you're a beginner or a seasoned coder, this collection is designed to inspire, teach, and help you build real-world skills. Dive in, explore, and make Python your superpower! 🦸‍♂️🐍
+> **Empowering your Python journey with hands-on projects, real-world automation, and creative coding.**
 
-![Divider](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png" width="60%"/>
+</p>
 
 ## 📋 Table of Contents
 
@@ -236,79 +244,15 @@ MIT License. See LICENSE file for details.
 
 ---
 
-![Scrolling Code](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="60%"/>
+</p>
 
-> "Code is like humor. When you have to explain it, it’s bad." — Cory House
+<p align="center" style="font-size:1.2em; font-style:italic;">
+  "Code is like humor. When you have to explain it, it’s bad."<br>
+  <b>— Cory House</b>
+</p>
 
----
-
-**If you want a more detailed summary for Projects 11-15, or want to include code samples, screenshots, or additional usage tips, let me know!**
-
----
-
-### 1. Animated Python Banner (GIF)
-
-You can use a free-to-use Python GIF banner at the top. Example:
-
-```markdown
-![Python Animated Banner](https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif)
-```
-
----
-
-### 2. Animated Divider
-
-```markdown
-![Divider](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png)
-```
-
-Or use a “loading” bar:
-
-```markdown
-⏳⬛⬛⬛⬛⬛⬛⬛⬛⬛ 0%
-⬛⏳⬛⬛⬛⬛⬛⬛⬛⬛ 10%
-⬛⬛⏳⬛⬛⬛⬛⬛⬛⬛ 20%
-⬛⬛⬛⏳⬛⬛⬛⬛⬛⬛ 30%
-⬛⬛⬛⬛⏳⬛⬛⬛⬛⬛ 40%
-⬛⬛⬛⬛⬛⏳⬛⬛⬛⬛ 50%
-⬛⬛⬛⬛⬛⬛⏳⬛⬛⬛ 60%
-⬛⬛⬛⬛⬛⬛⬛⏳⬛⬛ 70%
-⬛⬛⬛⬛⬛⬛⬛⬛⏳⬛ 80%
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⏳ 90%
-```
-
----
-
-### 3. Animated Snake Emoji
-
-You can use a sequence of snake emojis to simulate movement:
-
-```markdown
-🐍➡️➡️➡️➡️➡️
-➡️🐍➡️➡️➡️➡️
-➡️➡️🐍➡️➡️➡️
-➡️➡️➡️🐍➡️➡️
-➡️➡️➡️➡️🐍➡️
-➡️➡️➡️➡️➡️🐍
-```
-
----
-
-### 4. Add a GIF for a “scrolling” or “moving” effect
-
-For example, a scrolling code GIF:
-
-```markdown
-![Scrolling Code](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
-```
-
----
-
-**How to add:**
-- Place the GIF or effect at the top or between sections for maximum impact.
-- You can combine the ASCII art, emoji, and GIFs for a unique look.
-
----
-
-Would you like me to add a specific animated GIF (Python, code, or something else) to your README, or do you want a combination of the above?  
-Let me know your style preference (fun, professional, retro, etc.) and I’ll update your README accordingly!
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png" width="40%"/>
+</p>
