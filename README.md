@@ -1,5 +1,7 @@
 # 🐍 My Python Project Collection
 
+![Python Animated Banner](https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif)
+
 ```
         ____        _   _                   ____            _           _   
        |  _ \ _   _| |_| |__   ___  _ __   |  _ \ _ __ ___ | |__   ___ | |_ 
@@ -9,9 +11,13 @@
               |___/                                                         
 ```
 
-A curated collection of 15+ interactive Python projects, ranging from classic games and utilities to AI-powered assistants and productivity tools. Each project is self-contained, beginner-friendly, and demonstrates practical Python programming concepts.
+![Divider](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png)
 
----
+> **Welcome to the Ultimate Python Project Collection!**
+>
+> Unlock the power of Python with 15+ hands-on projects, from classic games to automation, AI, and productivity tools. Whether you're a beginner or a seasoned coder, this collection is designed to inspire, teach, and help you build real-world skills. Dive in, explore, and make Python your superpower! 🦸‍♂️🐍
+
+![Divider](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/images/divider.png)
 
 ## 📋 Table of Contents
 
@@ -229,6 +235,8 @@ Contributions are welcome! You can:
 MIT License. See LICENSE file for details.
 
 ---
+
+![Scrolling Code](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
 
 > "Code is like humor. When you have to explain it, it’s bad." — Cory House
 
