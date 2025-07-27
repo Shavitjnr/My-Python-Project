@@ -1,6 +1,6 @@
 # My Python Project Collection
 
-A collection of eight interactive Python projects demonstrating a range of programming concepts, from classic games to utilities and AI-powered assistants.
+A collection of nine interactive Python projects demonstrating a range of programming concepts, from classic games to utilities, GUIs, and AI-powered assistants.
 
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
@@ -13,6 +13,7 @@ A collection of eight interactive Python projects demonstrating a range of progr
   - [Project 6: Rent Calculator](#project-6-rent-calculator)
   - [Project 7: Coin Toss Game](#project-7-coin-toss-game)
   - [Project 8: Ludo Game](#project-8-ludo-game)
+  - [Project 9: To-Do List GUI](#project-9-to-do-list-gui)
 - [Requirements Summary](#requirements-summary)
 - [How to Run](#how-to-run)
 - [Contributing](#contributing)
@@ -120,6 +121,17 @@ This repository contains the following Python projects:
   python ludo_game.py
   ```
 
+### Project 9: To-Do List GUI
+- **Description:** A modern, user-friendly To-Do List application with a graphical interface built using Tkinter. Add, complete, and delete tasks, with persistent storage in a local JSON file. No external dependencies required.
+- **Features:** GUI (Tkinter), add/complete/delete tasks, persistent storage, simple and intuitive design.
+- **Python Version:** 3.6+
+- **Libraries:** Standard library only (Tkinter)
+- **How to Run:**
+  ```bash
+  cd "Project 9"
+  python main.py
+  ```
+
 ## 🗂️ Requirements Summary
 | Project         | Python Version | Extra Libraries/Dependencies         |
 |----------------|---------------|--------------------------------------|
@@ -131,6 +143,7 @@ This repository contains the following Python projects:
 | Project 6      | 3.6+          | None                                 |
 | Project 7      | 3.6+          | None                                 |
 | Project 8      | 3.6+          | None                                 |
+| Project 9      | 3.6+          | Tkinter (standard, or python3-tk)    |
 
 ## 🚀 How to Run
 1. **Install Python 3.6+** (3.7+ for Project 5)
@@ -138,6 +151,12 @@ This repository contains the following Python projects:
 3. **Navigate to the desired project folder**
 4. **Run the main Python file** as shown above
 5. **For Project 5:** Install dependencies and set up API keys as described in its README
+6. **For Project 9:** If you get a Tkinter error, install it with:
+   ```bash
+   sudo apt-get install python3-tk
+   # or for Python 3.12+
+   sudo apt-get install python3.12-tk
+   ```
 
 ## 🤝 Contributing
 Contributions are welcome! You can:
